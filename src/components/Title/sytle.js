@@ -1,17 +1,19 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
-
-    textTitle:{
-        color: "#1967d2",
-        fontSize: 24,
-        fontWeight: "bold"
-    },
     boxTitle: {
         alignItems: "center",
-        justifyContent: "center"
-    }
+        justifyContent: "center",
+        padding: 10
 
+    },
+    textTitle:{
+        color: "#993399",
+        fontSize: 24,
+       // estilo da fonte de texto 
+       // fontFamily: "arial", 
+        //fontWeight: "bold"
+    }
 });
 
 export default styles
