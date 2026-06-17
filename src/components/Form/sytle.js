@@ -1,21 +1,59 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native"
 
-export const styles = StyleSheet.create({
-    container: {
-        alignItems:"center"
+const styles = StyleSheet.create({
+    
+    formContext: {
+        width: "90%",
+        height: "50%",
+       // bottom:0,
+        backgroundColor:"#ffffff",
+        alignItems:"center",
+        //marginTop:30,
+        borderTopLeftRadius:30,
+        borderTopRightRadius:30
     },
-    formLabel: {
-        color: "#000000",
-        fontSize: 18,
-        paddingLeft: 20,
-        fontWeight:'bold'
+
+    form:{
+        width:"100%",
+        height: "auto",
+        marginTop: 20,
+        padding: 10
+
     },
-    formValor:{
-        color:"#1967d2",
-        fontSize:20,
-        fontWeight:'bold',
+
+    formLabel:{
+        color:"#993399",
+        fontSize:30,
         paddingLeft: 20
+    },
+
+    input:{
+        width:"90%",
+        borderRadius:70,
+        backgroundColor: "#f6f6f6",
+        height:40,
+        margin:12,
+        paddingLeft:10
+    },
+
+    textButton:{
+        fontSize: 20,
+        color:"#ffffff"
+    },
+
+    button:{
+        borderRadius:50,
+        alignItems:"center",
+        justifyContent:"center",
+        width:"90%",
+        backgroundColor:"#993399",
+        paddingTop:14,
+        paddingBottom:14,
+        marginLeft:12,
+        margin:30
     }
+
+
 });
 
 export default styles
