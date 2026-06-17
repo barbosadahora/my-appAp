@@ -1,12 +1,11 @@
-import React from 'react';
-import { Text, View } from 'react-native';
-import styles from './style';
+import React from "react";
+import {View, Text } from "react-native"
+import style from "./style";
 
-export default function Title() {
-
-    return (
-        <View style={styles.container}>
-            <Text style={styles.title}>APP FILMES v1.0</Text>
+export default function Title (){
+    return(
+        <View style={style.boxTitle}>
+            <Text style={style.textTitle}> Feriados do ano </Text>
         </View>
     );
 }
